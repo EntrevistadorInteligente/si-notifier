@@ -1,5 +1,6 @@
-package com.entrevistador.notificaciones.sse;
+package com.entrevistador.notificaciones.dto;
 
+import com.entrevistador.notificaciones.enums.TipoNotificacionEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

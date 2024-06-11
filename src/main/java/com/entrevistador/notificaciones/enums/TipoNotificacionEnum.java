@@ -1,4 +1,4 @@
-package com.entrevistador.notificaciones.sse;
+package com.entrevistador.notificaciones.enums;
 
 import lombok.Getter;
 

@@ -1,5 +1,7 @@
-package com.entrevistador.notificaciones.sse;
+package com.entrevistador.notificaciones.controller;
 
+import com.entrevistador.notificaciones.dto.NotifiacionDto;
+import com.entrevistador.notificaciones.service.SseService;
 import org.springframework.http.MediaType;
 import org.springframework.http.codec.ServerSentEvent;
 import org.springframework.web.bind.annotation.GetMapping;

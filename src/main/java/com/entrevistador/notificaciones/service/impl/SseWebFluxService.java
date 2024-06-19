@@ -34,7 +34,7 @@ public class SseWebFluxService implements SseService {
     }
 
     private Disposable notificarConexion(String userId) {
-        return Mono.delay(Duration.ofSeconds(2))
+        return Mono.delay(Duration.ofSeconds(1))
                 .flatMap(t -> convertirDtoAStringJson(NotifiacionDto.builder()
                         .tipo(TipoNotificacionEnum.NF)
                         .mensaje("User " + userId + " connected")

@@ -1,6 +1,6 @@
 # orquestador
 
-## Entorno local.
+## Entorno local
 
 Para desarrollo en entorno local el perfil por defecto es "local" o también se puede aputar a un perfil especifico desde el application.properties en 'spring.profiles.active', reemplazando el valor por el perfil especifico "local", "dev", "prod". También se debe ejecutar el siguiente docker-compose "docker-compose-local.yml"
 
